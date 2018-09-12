@@ -1,0 +1,19 @@
+Feedback
+
+Mala subida de archivos. Los scripts están duplicados.
+El proyecto quedó corrupto una vez se reorganizaron los archivos, por lo que tocó reconfigurarlo.
+
+Examen (2.25/5.0)
+ * APBullet no dispara correctamente. Una vez se instancia, colisiona con el Player y se destruye. No se puede probar.
+ * No es necesario activar dinámicamente el trigger de APBullet. Por qué no se hace desde el prefab?
+ * El disparo de las balas depende de cómo se asigne el arreglo de balas. No satisface el enunciado.
+ * No hay Invader.
+ * La velocidad de rotación del Debris no es aleatoria
+ * Shelter.OnCollisionEnter(): Por qué el contador tiene que ser 2 para parar la regeneración? Debe ser en el momento en que se recibe daño. La solución no satisface completamente el enunciado.
+ * No hay Game Over una vez se destruye el primer shelter.
+ * Regen time no se puede configurar sin modificar el código.
+
+Bonificación (0.0/0.5)
+ * No se presenta propuesta para las bonificaciones.
+
+Total: 2.25 / 5.0
